@@ -6,6 +6,10 @@ h1 {
   color: maroon;
 }
 
+.description h5 {
+	color: teal;	  
+}
+
 h2.destination {
   font-family: cursive;
 }
