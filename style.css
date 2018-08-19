@@ -6,6 +6,10 @@ h1 {
   color: maroon;
 }
 
+h5 {
+  color: rebeccapurple;
+}
+
 .description h5 {
 	color: teal;	  
 }
