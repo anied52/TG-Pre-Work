@@ -10,3 +10,7 @@ h1 {
   color: teal;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
