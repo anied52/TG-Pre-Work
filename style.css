@@ -14,3 +14,8 @@ h1 {
   text-transform: uppercase;
 }
 
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
