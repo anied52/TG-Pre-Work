@@ -11,7 +11,7 @@ h5 {
 }
 
 .description h5 {
-	color: teal;	  
+	color: teal !important;	  
 }
 
 h2.destination {
