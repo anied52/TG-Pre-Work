@@ -76,6 +76,8 @@ p {
   line-height: 48px;
   padding: 10px 20px;
   margin-top: 60px;
+	min-width: 200px;
+  max-width: 800px;
 }
 
 .pull-quote {
