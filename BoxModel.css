@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+.donate {
+	visibility: hidden;  
+}
+
 .navigation ul {
   margin: 0;
   padding: 0;
