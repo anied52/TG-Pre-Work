@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  background-color: hsl(240, 100%, 80%);
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 .midground {
