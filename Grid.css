@@ -17,6 +17,10 @@
   grid-row: 2 / span 3;
 }
 
+.c {
+  grid-area: 6 / 8 / span 3 / span 1;
+}
+
 .box {
   background-color: beige;
   color: black;
