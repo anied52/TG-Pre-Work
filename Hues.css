@@ -31,5 +31,5 @@ body {
 }
 
 .foreground {
-  background-color: hsl(325, 50%, 50%);
+  background-color: hsla(325, 50%, 50%, 0.6);
 }
