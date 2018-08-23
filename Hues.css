@@ -27,7 +27,7 @@ body {
 }
 
 .midground {
-  background-color: hsl(225, 100%, 50%);
+  background-color: hsl(225, 100%, 25%);
 }
 
 .foreground {
