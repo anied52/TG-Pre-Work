@@ -30,11 +30,11 @@ img {
 }
 
 .b {
-
+	grid-area: 2 / 2 / 3 / 4;
 }
 
 .c {
-
+	grid-area: 4 / 1 / 5 / 4;
 }
 
 /* set 2: angles */
