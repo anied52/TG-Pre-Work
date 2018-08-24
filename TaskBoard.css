@@ -83,6 +83,7 @@ input {
 .card-column {
 	background-color: #ffffff;
   min-height: 700px;
+  display: grid;
 }
 
 .card-column h2 {
