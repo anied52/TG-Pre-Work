@@ -213,8 +213,7 @@ footer .content {
   font-style: italic;
   color: #9b9b9b;
   line-height: 1.5em;
-  font-family: "Croissant One";
-}
+  font-family: "Croissant One", "Merriweather", serif;}
 
 footer p {
   padding-bottom: 1.66rem;
