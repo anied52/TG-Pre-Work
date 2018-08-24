@@ -64,3 +64,8 @@ console.log(price);
 
 entree = 'Tacos';
 
+// LET VARIABLES
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
