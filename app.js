@@ -92,3 +92,8 @@ assay++;
 let favoriteAnimal = 'cat';
 console.log('My favorite animal: ' + favoriteAnimal);
 
+// INTERPOLATION II
+let myName = 'Alan';
+let myCity = 'Denver';
+console.log(`My name is ${myName}. My favorite city is ${myCity}`);
+
