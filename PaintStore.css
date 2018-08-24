@@ -242,7 +242,7 @@ h1 {
 
 /* Red lightness decreases by 15 */
 .reds .lightness .color-1 {
-
+	background-color: hsl(350, 100%, 80%)
 }
 
 .reds .lightness .color-2 {
@@ -311,7 +311,7 @@ h1 {
 
 /* Green lightness decreases by 20 */
 .greens .lightness .color-1 {
-
+  background-color: hsl(103, 100%, 90%);
 }
 
 .greens .lightness .color-2 {
@@ -380,7 +380,7 @@ h1 {
 
 /* Blue lightness decreases by 20 */
 .blues .lightness .color-1 {
-
+  background-color: hsl(220, 100%, 90%);
 }
 
 .blues .lightness .color-2 {
