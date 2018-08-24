@@ -20,6 +20,10 @@ img {
 	max-width: 100%;  
 }
 
+.d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o {
+  display: none;
+}
+
 /* set 1: repurposed living */
 .a {
 
