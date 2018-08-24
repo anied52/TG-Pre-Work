@@ -10,7 +10,8 @@ body {
 
 .grid {
 	display: grid;
-}
+  width: 900px;
+  height: 3000px;}
 
 /* set 1: repurposed living */
 .a {
