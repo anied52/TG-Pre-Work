@@ -88,3 +88,7 @@ particle *= 6.02;
 // Increment assay by 1
 assay++;
 
+// STRING INTERPOLATION
+let favoriteAnimal = 'cat';
+console.log('My favorite animal: ' + favoriteAnimal);
+
