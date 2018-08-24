@@ -11,7 +11,9 @@ body {
 .grid {
 	display: grid;
   width: 900px;
-  height: 3000px;}
+  height: 3000px;
+  margin: auto;
+}
 
 /* set 1: repurposed living */
 .a {
