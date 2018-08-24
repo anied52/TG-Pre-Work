@@ -117,3 +117,26 @@ let newton = celsius * (33 / 100);
 newton = Math.floor(newton);
 console.log(`The temperature is ${newton} degrees Newton.`);
 
+// DOG YEARS PROJECT
+// My age
+const myAge = 66;
+
+// Early years
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// convert my later years to dog years
+let laterYears = myAge - 2
+laterYears *= 4;
+
+console.log(`Early years = ${earlyYears}. Later years = ${laterYears}.`);
+
+// Total dog years for my age
+let myAgeInDogYears = earlyYears + laterYears;
+
+// My name in all lowercase
+let myName = 'Alan'.toLowerCase();
+
+// print my name and age in dog years
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
+
