@@ -9,7 +9,7 @@ body {
 
 
 .grid {
-
+	display: grid;
 }
 
 /* set 1: repurposed living */
