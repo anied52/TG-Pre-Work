@@ -97,3 +97,23 @@ let myName = 'Alan';
 let myCity = 'Denver';
 console.log(`My name is ${myName}. My favorite city is ${myCity}`);
 
+// KELVIN WEATHER PROJECT
+// Todays' forecast
+const kelvin = 293;
+
+// convert kelvin to celsius
+let celsius = kelvin - 273;
+
+// convert celsius to fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// Round fahrenheit down to the nearest integer
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// convert celsius to newton
+let newton = celsius * (33 / 100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`);
+
