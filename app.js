@@ -479,3 +479,19 @@ console.log(listItem);
 console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
 
+// LENGTH PROPERTY
+const newYearsResolutions = [
+  'Pray more',
+  'Learn a new language',
+  'Be bolder in my witness'
+];
+
+console.log(newYearsResolutions);
+
+const listItem = newYearsResolutions[0];
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
+
+console.log (newYearsResolutions.length);
+
