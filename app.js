@@ -302,3 +302,12 @@ const takeOrder = (topping) => {
 
 takeOrder('Pepperoni');
 
+// PARAMETERS II
+const takeOrder = (topping, crustType) => {
+  console.log(`Order: ${crustType} pizza topped with ` + topping);
+};
+
+takeOrder('mushrooms', 'thin');
+takeOrder('Pepperoni', 'original');
+takeOrder('sausage', 'pan');
+
