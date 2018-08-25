@@ -365,3 +365,14 @@ function isGreaterThan (numberOne, numberTwo) {
 
 isGreaterThan(3, 6);
 
+// FUNCTION EXPRESSIONS
+const isGreaterThan = (numberOne, numberTwo) => {
+  if(numberOne > numberTwo) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+isGreaterThan(4, 8);
+
