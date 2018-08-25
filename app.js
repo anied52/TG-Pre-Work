@@ -382,3 +382,14 @@ const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diame
 
 console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
 
+// GLOBAL SCOPE
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+
+let stars = 'North Star';
+
+const myNightSky = function() { 
+  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+                              }
+console.log(myNightSky());
+
