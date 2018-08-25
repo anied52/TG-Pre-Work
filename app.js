@@ -353,3 +353,15 @@ const getTotal = (itemCount) => {
   return getSubTotal(itemCount) + getTax(itemCount);
 }
 console.log(getTotal(orderCount));
+
+// FUNCTION DECLARATIONS
+function isGreaterThan (numberOne, numberTwo) {
+  if (numberOne > numberTwo) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+isGreaterThan(3, 6);
+
