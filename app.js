@@ -407,3 +407,12 @@ const myNightSky = function() {
 console.log(myNightSky());
 console.log(stars);
 
+// BLOCK SCOPE
+const visibleLightWaves = function () {
+  let lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+
+visibleLightWaves();
+console.log(lightWaves);
+
