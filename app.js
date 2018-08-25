@@ -154,3 +154,11 @@ if (knowsJavaScript && userName) {
   console.log('Great! Get ready to learn something new!');
 }
 
+// IF/ELSE STATEMENTS
+let isSoccerFan = false;
+if (isSoccerFan === true) {
+  console.log('Goal!');
+} else {
+  console.log('No goal!');
+}
+
