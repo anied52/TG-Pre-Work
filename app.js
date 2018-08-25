@@ -451,3 +451,17 @@ const newYearsResolutions = [
 
 console.log(newYearsResolutions);
 
+// PROPERTY ACCESS
+const newYearsResolutions = [
+  'Pray more',
+  'Read the Word more',
+  'Be bolder in my witness'
+];
+
+console.log(newYearsResolutions);
+
+const listItem = newYearsResolutions[0];
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
+
