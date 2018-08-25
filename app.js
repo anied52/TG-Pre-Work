@@ -495,3 +495,24 @@ console.log(newYearsResolutions[3]);
 
 console.log (newYearsResolutions.length);
 
+// PUSH METHOD
+const newYearsResolutions = [
+  'Pray more',
+  'Learn a new language',
+  'Be bolder in my witness'
+];
+
+newYearsResolutions.push('Item 4');
+newYearsResolutions.push('Item 5');
+
+newYearsResolutions.pop();
+
+console.log(newYearsResolutions);
+
+const listItem = newYearsResolutions[0];
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
+
+console.log (newYearsResolutions.length);
+
