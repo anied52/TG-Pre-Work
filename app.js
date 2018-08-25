@@ -442,3 +442,12 @@ const starCount = function () {
 starCount();
 console.log(i);
 
+// CREAT AN ARRAY
+const newYearsResolutions = [
+  'Pray more',
+  'Read the Word more',
+  'Be bolder in my witness'
+];
+
+console.log(newYearsResolutions);
+
