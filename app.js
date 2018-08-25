@@ -527,3 +527,19 @@ console.log(groceryList);
 console.log(groceryList.slice(1, 4));
 console.log(groceryList);
 
+// ARRAYS WITH LET AND CONST
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('Mayonaise');
+console.log(condiments);
+
+condiments = ['Mayo'];
+console.log(condiments);
+
+utensils.pop();
+console.log(utensils);
+
+utensils = ['Fork'];
+
