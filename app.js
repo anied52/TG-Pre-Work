@@ -990,3 +990,11 @@ halley.incrementBehavior(); // Add one to behavior
 console.log(halley.name); // Print name value to console
 console.log(halley.behavior); // Print behavior value to console
 
+// CONSTRUCTOR
+class Surgeon {
+  constructor(name, department) {
+    this.name = name;
+    this.department = department;
+  }
+}
+
