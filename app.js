@@ -543,3 +543,14 @@ console.log(utensils);
 
 utensils = ['Fork'];
 
+// LOOPING MANUALLY
+const vacationSpots = [
+  'Black Hills',
+  'Great Smoky Mountains',
+  'Washington, DC'
+];
+
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
