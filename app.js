@@ -576,3 +576,24 @@ for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; v
 	console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]); 
 }
 
+// NESTED FOR LOOPS
+const myPlaces = [
+  'Mount Rushmore',
+  'Eugene',
+  'Portland'
+];
+
+const friendPlaces = [
+  "Georgia",
+  "Oregon",
+  "Portland"
+];
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(myPlaces[myPlacesIndex]);
+    }
+  }
+}
+
