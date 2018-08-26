@@ -565,3 +565,14 @@ for (let vacationSpotIndex = 0; vacationSpotIndex < vacationSpots.length; vacati
 	console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]); 
 }
 
+// FOR LOOPS, BACKWARDS
+const vacationSpots = [
+  'Black Hills',
+  'Great Smoky Mountains',
+  'Washington, DC'
+];
+
+for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--) {
+	console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]); 
+}
+
