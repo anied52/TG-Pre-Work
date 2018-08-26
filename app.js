@@ -688,3 +688,12 @@ let person = {
   age: 66
 };
 
+// ACCESSING OBJECT PROPERTIES I
+let person = {
+  name: 'Alan',
+  age: 40
+};
+
+console.log(person.name);
+console.log(person.age);  
+
