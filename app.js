@@ -697,3 +697,11 @@ let person = {
 console.log(person.name);
 console.log(person.age);  
 
+// ACCESSING OBJECT PROPERTIES II
+let person = {
+  name: 'Alan',
+  age: 40
+};
+
+console.log(person['name']);
+console.log(person['age']);
