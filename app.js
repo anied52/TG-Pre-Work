@@ -876,3 +876,42 @@ console.log(person.hobbies);
 
 console.log(person.sayHello());
 
+// THE THIS KEYWORD II
+let person = {
+  name: 'Alan',
+  age: 40,
+  weekendAlarm: 'No alarms needed',
+  weekAlarm: 'Alarm set to 7AM',
+  sayHello: function() {
+    return `Hello, my name is ${this.name}`;
+  },
+  sayGoodbye() {return 'Goodbye!';}
+};
+
+let friend = {name: 'John'};
+friend.sayHello = person.sayHello;
+
+let day = 'Sunday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday') {
+  alarm = 'weekendAlarm';
+} else {
+  alarm = 'weekAlarm';
+}
+
+console.log(person[alarm]);
+
+person.hobbies = [
+  'Woodworking',
+  'Coding'
+];
+
+person.hobbies = ['Coding'];
+
+console.log(person.hobbies);
+
+console.log(person.sayHello());
+
+console.log(friend.sayHello());
+
