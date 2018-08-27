@@ -1269,3 +1269,13 @@ function displayAirplane() {
 
 displayAirplane();
 
+// MODULE.EXPORTS II
+const Airplane = {};
+
+module.exports = {
+  myAirplane: "CloudJet",
+  displayAirplane: function() {
+    return this.myAirplane;
+  }
+};
+
